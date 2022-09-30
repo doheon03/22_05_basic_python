@@ -1,0 +1,164 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM7eUmnhhcK2EaBI0Sb+FEt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/doheon03/22_05_basic_python/blob/main/Untitled0.ipynb%20(x%3D%2010%20x%3D3.14)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = input(\"정수를 입력하시오 :\")\n",
+        "y = input\n",
+        "(\"정수를 입력하시오 :\")\n",
+        "print(x+y)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 229
+        },
+        "id": "K0DEltJKSrlh",
+        "outputId": "a3305925-6642-4da2-a881-5936c15b05db"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "정수를 입력하시오 :100\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-14-e7fdec44620f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0my\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;34m\"정수를 입력하시오 :\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mx\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0my\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: can only concatenate str (not \"method\") to str"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "TTPh6zpDT8ib"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9l47-4NANlai",
+        "outputId": "fbe78bd6-aa32-4fbe-b260-8f115641b350"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x = 10\n",
+            "x = 3.14\n",
+            "x = Hello World!\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = 10\n",
+        "print(\"x =\",x)\n",
+        "x = 3.14\n",
+        "print(\"x =\",x)\n",
+        "x = \"Hello World!\"\n",
+        "print(\"x =\",x)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"정수를 입력하시오 :\"))\n",
+        "y = int(input( \"정수를 입력하시오 :\"))\n",
+        "print(x+y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pQHy_bR1TZF5",
+        "outputId": "e655d542-2d55-4037-ac08-dbb9bba06f3b"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "정수를 입력하시오 :100\n",
+            "정수를 입력하시오 :200\n",
+            "300\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "t = input(\"정수를 입력하시오: \")\n",
+        "x = int(t)\n",
+        "\n",
+        "t = input(\"정수를 입력하시오: \")\n",
+        "y = int(t)\n",
+        "print(x+y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r3DH7zZ8U8ez",
+        "outputId": "9f39b163-e9a4-496f-d50c-1454af18d2a3"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "정수를 입력하시오: 100\n",
+            "정수를 입력하시오: 200\n",
+            "300\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
